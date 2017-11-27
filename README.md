@@ -19,23 +19,23 @@ adx使用[openrtb-v2.5](./doc/openrtb-v2.5.pdf)并在Bid的Ext字段中做如下
 
 ```json
 {
-    id: "123",
-    bidid: "1122",
-    seatbid: [
+    "id": "123",
+    "bidid": "1122",
+    "seatbid": [
     {
-        seat: "seat",
-        bid: [
+        "seat": "seat",
+        "bid": [
         {
-            id: "1",
-            impid: "123456",
-            price: 1.23,
-            nurl: "http://nurl.com",
-            iurl: "http://iur/image.com",
-            ext: {
-                clk_url: "http://clkurl.com",
-                final_url: "http://finalurl.com",
-                imp_tk_urls: ["https://imptkurls.com"],
-                clk_tk_urls: ["https://clktkurls.com"]
+            "id": "1",
+            "impid": "123456",
+            "price": 1.23,
+            "nurl": "http://nurl.com",
+            "iurl": "http://iur/image.com",
+            "ext": {
+                "clk_url": "http://clkurl.com",
+                "final_url": "http://finalurl.com",
+                "imp_tk_urls": ["https://imptkurls.com"],
+                "clk_tk_urls": ["https://clktkurls.com"]
 	        }
         }]
     }]
