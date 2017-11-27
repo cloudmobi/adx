@@ -15,6 +15,42 @@ adx使用[openrtb-v2.5](./doc/openrtb-v2.5.pdf)并在Bid的Ext字段中做如下
 }
 ```
 
+请求示例
+
+```json
+{
+    "id":"1111",
+    "imp":[
+        {
+            "id":"1111-0",
+            "banner":{
+                "w":19,
+                "h":10
+            },
+            "bidfloor":0.3,
+            "bidfloorcur":"USD"
+        }
+    ],
+    "app":{
+        "bundle":"com.gmedal.goldgmedal(nat0)"
+    },
+    "device":{
+        "geo":{
+            "country":"HKG"
+        },
+        "ip":"103.206.188.3",
+        "os":"iOS",
+        "h":667,
+        "w":375
+    },
+    "at":2,
+    "tmax":200,
+    "cur":[
+        "USD"
+    ]
+}
+```
+
 一个简单的示例返回
 
 ```json
