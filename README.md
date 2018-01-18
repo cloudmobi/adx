@@ -55,7 +55,7 @@ adx使用[openrtb-v2.5](./doc/openrtb-v2.5.pdf)并在Bid的Ext字段中做如下
 }
 ```
 
-一个简单的示例返回
+一个返回示例
 
 ```json
 {
