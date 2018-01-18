@@ -15,7 +15,7 @@ adx使用[openrtb-v2.5](./doc/openrtb-v2.5.pdf)并在Bid的Ext字段中做如下
     ]
 }
 ```
-调用`http://52.221.205.188:11211/request_example`便会发送一条bid请求
+调用`http://dev.adx.cloudmobi.net:11211/request_example`便会发送一条bid请求
 
 请求使用post方法将信息发送给dsp
 
