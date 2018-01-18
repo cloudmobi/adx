@@ -36,7 +36,7 @@ adx使用[openrtb-v2.5](./doc/openrtb-v2.5.pdf)并在Bid的Ext字段中做如下
         }
     ],
     "app":{
-        "bundle":"com.gmedal.goldgmedal(nat0)"
+        "bundle":"com.gmedal.goldgmedal"
     },
     "device":{
         "geo":{
